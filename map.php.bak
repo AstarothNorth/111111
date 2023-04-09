@@ -1,0 +1,63 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+        <link rel="shortcut icon" href="img/zhelezno.png" />
+        <title>Музей ЖЕЛЕЗНО</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+		<style type="text/css">
+         #title {
+			 line-height: 0;
+			 }
+         #title img {
+			 border: none;
+			 }
+  </style>
+    </head>
+    <body>
+        <div>
+            <?php
+                require 'header.php';
+            ?>
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Добро пожаловать в музей!</h1>
+                </div>
+            </div>
+			<center>
+           <img src="img/questmap2.jpg" border="0" width="1366" height="692" orgWidth="1366" orgHeight="692" usemap="#questmap2" />
+<p><map name="questmap2">
+<area   shape="rect" coords="694,201,744,251" style="outline:none;" onclick="<a href="3.php">  
+<area shape="rect" coords="398,356,448,406" style="outline:none;" target="_self" onclick="<a href="index.php">   
+<area shape="rect" coords="127,162,177,212" style="outline:none;" target="_self" onclick="<a href="9.php">    
+<area   shape="rect" coords="35,385,85,435" style="outline:none;" target="_self" onclick="<a href="6.php">    
+<area  shape="rect" coords="31,527,81,577" style="outline:none;" target="_self" onclick="<a href="2.php">    
+<area   shape="rect" coords="268,589,318,639" style="outline:none;" target="_self" onclick="<a href="10.php">  
+<area   shape="rect" coords="612,447,662,497" style="outline:none;" target="_self" onclick="<a href="7.php">   
+<area  shape="rect" coords="520,346,570,396" style="outline:none;" target="_self" onclick="<a href="4.php">   
+<area   shape="rect" coords="749,159,799,209" style="outline:none;" target="_self" onclick="<a href="5.php">  
+<area  shape="rect" coords="976,70,1026,120" style="outline:none;" target="_self" onclick="<a href="8.php">  
+<area   shape="rect" coords="699,508,854,558" style="outline:none;" target="_self" onclick="<a href="startquest.php">   
+<area shape="rect" coords="1364,690,1366,692"  style="outline:none;" title="Image Map" />
+</map></p>
+				</center>
+            <br><br><br><br><br><br><br><br>
+           <footer class="footer">
+               <div class="container">
+               <center>
+                   <p>Номера для связи с музеем : +7 (4725) 45-12-30, +7 (951) 769-95-63</p>
+                   <p>Этот сайт разработан Голосовым Даниилом</p>
+               </center>
+               </div>
+           </footer>
+        </div>
+    </body>
+</html>
